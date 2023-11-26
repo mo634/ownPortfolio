@@ -40,27 +40,9 @@ const Projects = () => {
                     </div>
                     {/*end 1st section */}
 
-                    {/*start 2nd section */}
-                    <div className=" col-span-6 xl:col-span-12 ">
-                        <WebsiteProject
-                            link="https://mo634.github.io/Template2/"
-                            repoLink="https://github.com/mo634/Template2"
-                            image={template2}
-                            title={"website template "}
-                            head=" designed by using Pure  HTML CSS With FontAwseome "
-                        />
-                    </div>
 
 
-                    <div className=" col-span-6 xl:col-span-12">
-                    <WebsiteProject
-                            link="https://mo634.github.io/Template3/"
-                            repoLink="https://github.com/mo634/Template3"
-                            image={template3}
-                            title={"website template "}
-                            head=" designed by using Pure  HTML CSS With FontAwseome "
-                        />
-                    </div>
+
                     {/*end 2nd section */}
 
                     {/*start 3rd section */}
@@ -74,26 +56,8 @@ const Projects = () => {
                             summary=" designed by using Pure  HTML CSS With FontAwseome "
                         />
                     </div>
-                    {/*end 3rd section */}
-                    <div className=" col-span-6 xl:col-span-12">
-                        <WebsiteProject
-                            link="https://mo634.github.io/template5/"
-                            repoLink="https://github.com/mo634/template5"
-                            image={template5}
-                            title={"Template Website"}
-                            head="designed by using pure HTML , CSS , JS "
-                        />
-                    </div>
-                    {/*start 4th section */}
-                    <div className=" col-span-6 xl:col-span-12">
-                        <WebsiteProject
-                            link="https://mo634.github.io/prayer-times/"
-                            repoLink="https://github.com/mo634/prayer-times"
-                            image={prayeTimes}
-                            title={"Preyer Times For Muslims"}
-                            head="designed by using react frame work and Material UI"
-                        />
-                    </div>
+
+
                     <div className=" col-span-12">
                         <FeatureProject
                             link="https://mo634.github.io/ai-summarizer/"
