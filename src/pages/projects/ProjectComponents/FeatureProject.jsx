@@ -11,6 +11,17 @@ const FeatureProject = ({image, link,repoLink, title, head, summary}) => {
                 
             {/* left side  */}
 
+                <Link
+                    target="_blank"
+                    href={link ?? ''} className="xl:w-[100%]  w-1/2 overflow-hidden rounded-2xl">
+                <Image
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    src={image}
+                    alt="not Found"
+                    className="hover:scale-[1.2] hover:-rotate-1 duration-[0.5s]"
+                />
+            </Link>
 
             {/* right side  */}
 
