@@ -1,10 +1,17 @@
 import template1 from "../../../public/images/img/template1.png";
-
+import template2 from "../../../public/images/img/template2.png";
+import template3 from "../../../public/images/img/template3.png";
+import template4 from "../../../public/images/img/template4.png";
+import template5 from "../../../public/images/img/Template5.png";
+import prayeTimes from "../../../public/images/img/praye-times.png";
+import loginform from "../../../public/images/projects/loginform.png";
+import aiSumm from "../../../public/images/img/Ai-summarizer.png";
 
 import AnimatedHeading from "@/components/AnimatedHeading";
 import TransitionPageEffect from "@/components/TransitionPageEffect";
 import Head from "next/head";
 import FeatureProject from "./ProjectComponents/FeatureProject";
+import WebsiteProject from "./ProjectComponents/WebsiteProject";
 const Projects = () => {
     return (
         <>
@@ -32,6 +39,87 @@ const Projects = () => {
                         />
                     </div>
                     {/*end 1st section */}
+
+
+                    {/*start 2nd section */}
+                    <div className=" col-span-6 xl:col-span-12 ">
+                        <WebsiteProject
+                            link="https://mo634.github.io/Template2/"
+                            repoLink="https://github.com/mo634/Template2"
+                            image={template2}
+                            title={"website template "}
+                            head=" designed by using Pure  HTML CSS With FontAwseome "
+                        />
+                    </div>
+
+
+                    <div className=" col-span-6 xl:col-span-12">
+                    <WebsiteProject
+                            link="https://mo634.github.io/Template3/"
+                            repoLink="https://github.com/mo634/Template3"
+                            image={template3}
+                            title={"website template "}
+                            head=" designed by using Pure  HTML CSS With FontAwseome "
+                        />
+                    </div>
+                    {/*end 2nd section */}
+
+                    {/*start 3rd section */}
+                    <div className=" col-span-12">
+                    <FeatureProject
+                            link="https://mo634.github.io/Template4/"
+                            repoLink="https://github.com/mo634/Template4"
+                            image={template4}
+                            title={"Template 4 "}
+                            head="website sss template "
+                            summary=" designed by using Pure  HTML CSS With FontAwseome "
+                        />
+                    </div>
+                    {/*end 3rd section */}
+                    <div className=" col-span-6 xl:col-span-12">
+                        <WebsiteProject
+                            link="https://mo634.github.io/template5/"
+                            repoLink="https://github.com/mo634/template5"
+                            image={template5}
+                            title={"Template Website"}
+                            head="designed by using pure HTML , CSS , JS "
+                        />
+                    </div>
+                    {/*start 4th section */}
+                    <div className=" col-span-6 xl:col-span-12">
+                        <WebsiteProject
+                            link="https://mo634.github.io/prayer-times/"
+                            repoLink="https://github.com/mo634/prayer-times"
+                            image={prayeTimes}
+                            title={"Preyer Times For Muslims"}
+                            head="designed by using react frame work and Material UI"
+                        />
+                    </div>
+                    <div className=" col-span-12">
+                        <FeatureProject
+                            link="https://mo634.github.io/ai-summarizer/"
+                            repoLink={"https://github.com/mo634/ai-summarizer"}
+                            image={aiSumm}
+                            title={"AI article summarizer "}
+                            head="for summarize aricles by providing the link of article "
+                            summary=" designed by using react , tailwind css , redux toolkit api query  "
+                        />
+                    </div>
+                    {/*end 4th section */}
+
+                    {/* login project  */}
+                    <div className=" col-span-12">
+                        <FeatureProject
+                            link="https://next-auth-login-iota.vercel.app/"
+                            repoLink={"https://github.com/mo634/next-auth-login"}
+                            image={loginform}
+                            title={"Simple login form  "}
+                            head="you can register or login if have already account "
+                            summary="designed using mongodb , Next-auth , to handle login , register and user authentication as the user info after register it inserted  to monogdb and then it validate when login to autharize user"
+                        />
+                    </div>
+
+
                     </div>
                 </main>
         </>
