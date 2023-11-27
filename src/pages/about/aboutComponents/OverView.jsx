@@ -61,7 +61,7 @@ const OverView = () => {
                 </div>
                 <div>
                     <h1 className=" text-5xl font-bold sm:text-3xl">
-                        <Increamenter value={"8"} />+
+                        <Increamenter value={"12"} />+
                     </h1>
                     <p className="text-dark/75 dark:text-light">Projects Completed on GitHub</p>
                 </div>
