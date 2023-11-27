@@ -3,7 +3,9 @@ import React from "react";
 import Image from "next/image";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faHtml5, faMdb, faNeos, faNode, faNodeJs, faReact} from "@fortawesome/free-brands-svg-icons";
+import {
+    faHtml5, faMdb, faNeos, faNode, faNodeJs, faReact
+} from "@fortawesome/free-brands-svg-icons";
 import {faCss3} from "@fortawesome/free-brands-svg-icons";
 import {faJs} from "@fortawesome/free-brands-svg-icons";
 import {fa} from "@fortawesome/free-brands-svg-icons";
@@ -30,6 +32,11 @@ const Skills = () => {
                 <SkillIcon icon={faT} text="Tailwind CSS"/>
                 <SkillIcon icon={faReact} text="React" />
                 <SkillIcon icon={faNodeJs} text="Node js" />
+
+
+                <SkillIcon icon={""}  text="Express js" insteadLogo="EX" />
+
+
                 <SkillIcon icon={faMdb} text="Mongo Data Base" />
                 <SkillIcon icon={faNeos} text="Next JS" />
                 <SkillIcon icon={faGithub} text="github" />

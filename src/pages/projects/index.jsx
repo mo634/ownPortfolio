@@ -6,6 +6,7 @@ import template5 from "../../../public/images/img/Template5.png";
 import prayeTimes from "../../../public/images/img/praye-times.png";
 import loginform from "../../../public/images/projects/loginform.png";
 import aiSumm from "../../../public/images/img/Ai-summarizer.png";
+import sharePrompts from "../../../public/images/img/share_prompts.png";
 
 import AnimatedHeading from "@/components/AnimatedHeading";
 import TransitionPageEffect from "@/components/TransitionPageEffect";
@@ -119,7 +120,18 @@ const Projects = () => {
                         />
                     </div>
 
-
+                    {/* share prompts projectc */}
+                    <div className=" col-span-6 xl:col-span-12">
+                        <WebsiteProject
+                            link="https://share-pormots-df1gotgq6-mohameds-projects-0371ff98.vercel.app/"
+                            repoLink="https://github.com/mo634/share-pormots"
+                            image={sharePrompts}
+                            title={"AI Article Summarizer"}
+                            head="designed by using Next js and tailwind css with help of next-auth for authenticate users 
+                            so , you can enter any link of an article and it will provide you summarization
+                            "
+                        />
+                    </div>
                     </div>
                 </main>
         </>
