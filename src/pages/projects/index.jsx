@@ -7,6 +7,7 @@ import prayeTimes from "../../../public/images/img/praye-times.png";
 import loginform from "../../../public/images/projects/loginform.png";
 import aiSumm from "../../../public/images/img/Ai-summarizer.png";
 import sharePrompts from "../../../public/images/img/share_prompts.png";
+import mernEstate from "../../../public/images/projects/mernEstate.png";
 
 import AnimatedHeading from "@/components/AnimatedHeading";
 import TransitionPageEffect from "@/components/TransitionPageEffect";
@@ -120,7 +121,7 @@ const Projects = () => {
                         />
                     </div>
 
-                    {/* share prompts projectc */}
+                    {/* share prompts project */}
                     <div className=" col-span-6 xl:col-span-12">
                         <WebsiteProject
                             link="https://share-pormots-df1gotgq6-mohameds-projects-0371ff98.vercel.app/"
@@ -129,6 +130,21 @@ const Projects = () => {
                             title={"AI Article Summarizer"}
                             head="designed by using Next js and tailwind css with help of next-auth for authenticate users 
                             so , you can enter any link of an article and it will provide you summarization
+                            "
+                        />
+                    </div>
+
+
+                    {/* mern estate app  */}
+                    <div className=" col-span-6 xl:col-span-12">
+                        <WebsiteProject
+                            link="https://mern-estate-x5r6.onrender.com"
+                            repoLink="https://github.com/mo634/marketplace-mern"
+                            image={mernEstate}
+                            title={"MernEstate for house `E-commerce`"}
+                            head="mern state for buy , sale ,rent and soo many for house app that designed using react , express ,tailwind, mongodb,firebase for auth and upload image ,redux and jwt ,.. these technologies used 
+                            to make full stake website 
+
                             "
                         />
                     </div>
